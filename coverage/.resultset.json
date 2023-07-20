@@ -6,7 +6,7 @@
           1,
           1,
           null,
-          0,
+          1,
           null,
           null,
           null,
@@ -74,6 +74,14 @@
           null,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          15,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -100,10 +108,10 @@
           null,
           null,
           1,
-          16,
-          16,
-          16,
-          16,
+          31,
+          31,
+          31,
+          31,
           null,
           null,
           null,
@@ -119,19 +127,43 @@
         "lines": [
           1,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
           1,
-          2,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/controllers/welcome_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/controllers/parks_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
           null,
           null
         ]
@@ -147,24 +179,6 @@
         }
       },
       "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/laurengolden/turing_work/3mod/challenges/parks-finder-7/app/controllers/welcome_controller.rb": {
         "lines": [
           0,
           0,
@@ -207,6 +221,6 @@
         }
       }
     },
-    "timestamp": 1689887799
+    "timestamp": 1689889923
   }
 }

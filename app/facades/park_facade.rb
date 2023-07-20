@@ -6,6 +6,14 @@ class ParkFacade
       Park.new(data)
     end
   end
+
+  def get_parks(state)
+    service = ParkService.new
+    request = service.parks_by_state(state)
+    @parks = request[:data].map do |data|
+      Park.new(data)
+    end
+  end
 end
 
 

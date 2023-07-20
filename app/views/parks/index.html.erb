@@ -1,0 +1,6 @@
+<h1> Parks </h1>
+
+<%= @parks.count %>
+<% @parks.each do |park| %>
+  <li><%= park.name %><%= park.description %><%= park.directions_info %></li>
+<% end %>
